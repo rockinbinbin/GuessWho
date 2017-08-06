@@ -15,13 +15,13 @@ export class Initial extends PureComponent {
 
   render () {
     return (
-      <View style={styles.login}>
-        <Button
-          onPress={this.visitProfile}
-          title='Profile'
-          style={{fontSize: 18, marginTop: 10}}
-        />
-      </View>
+      // <View style={styles.login}>
+      //   <Button
+      //     onPress={this.visitProfile}
+      //     title='Profile'
+      //     style={{fontSize: 18, marginTop: 10}}
+      //   />
+      // </View>
     )
   }
 }
