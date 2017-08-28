@@ -1,7 +1,7 @@
 const type = {
-  light: 'AsteriskSansPro-Light',
-  base: 'AsteriskSansPro-Regular',
-  bold: 'AsteriskSansPro-Bold',
+  light: 'HelveticaNeue-Light',
+  base: 'HelveticaNeue',
+  bold: 'HelveticaNeue-Bold',
   emphasis: 'HelveticaNeue-Italic'
 }
 // TODO (thorben): ^^^ why is emphasis not an Asterisk font as well?
