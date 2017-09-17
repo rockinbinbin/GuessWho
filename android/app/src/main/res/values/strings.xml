@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GuessWho</string>
+    <string name="facebook_app_id">116639025673159</string>
 </resources>

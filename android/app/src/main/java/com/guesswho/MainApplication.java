@@ -38,6 +38,8 @@ public class MainApplication extends NavigationApplication implements ReactAppli
               new FBSDKPackage(mCallbackManager)
       );
     }
+
+
   };
 
   @Override
@@ -48,7 +50,10 @@ public class MainApplication extends NavigationApplication implements ReactAppli
   @Override
   public void onCreate() {
     super.onCreate();
-    SoLoader.init(this, /* native exopackage */ false);
+//    SoLoader.init(this, /* native exopackage */ false);
+    FacebookSdk.sdkInitialize(getApplicationContext());
+    // If you want to use AppEventsLogger to log events.
+    AppEventsLogger.activateApp(this);
   }
 
   @Override
