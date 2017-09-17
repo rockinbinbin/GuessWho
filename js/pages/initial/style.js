@@ -8,34 +8,42 @@ export default StyleSheet.create({
   },
   topContainer: {
     flexDirection: 'column',
-    backgroundColor: colors.pink,
-    paddingLeft: 14,
-    paddingRight: 14
+    height: '40%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.pink
   },
   headerText: {
     fontFamily: fonts.type.base,
-    fontWeight: '900',
     fontSize: 24,
     lineHeight: 27,
     color: colors.white,
-    marginTop: 111
+    marginTop: 0
   },
   subheaderText: {
     fontFamily: fonts.type.base,
     fontSize: 17,
     lineHeight: 20,
     color: colors.white,
-    marginTop: 6,
-    marginBottom: 48
+    marginTop: 10
   },
   bottomContainer: {
     flexDirection: 'column',
+    height: '60%',
     backgroundColor: colors.white,
-    paddingLeft: 14,
-    paddingRight: 14
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  image: {
+    width: 200,
+    height: 200,
+    backgroundColor: colors.pink
   },
   questionText: {
     fontSize: 17,
-    color: colors.blue
+    lineHeight: 20,
+    color: colors.blue,
+    marginTop: 20,
+    width: 220
   }
 })

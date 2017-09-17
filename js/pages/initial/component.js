@@ -3,15 +3,16 @@ import {
   StyleSheet,
   View,
   Text,
-  Button
+  Button,
+  Image
 } from 'react-native'
 import { Title, Subheader } from '../../microcomponents/text/title'
 import { Navigation } from 'react-native-navigation'
 import FadeableNavScrollview from '../../microcomponents/fadeable-nav-scrollview'
 import style from './style.js'
-import { intro1 } from '../../assets/intro1.png'
-import { intro2 } from '../../assets/intro2.png'
-import { intro3 } from '../../assets/intro3.png'
+import intro1 from '../../assets/intro1.png'
+import intro2 from '../../assets/intro2.png'
+import intro3 from '../../assets/intro3.png'
 
 export class Initial extends PureComponent {
 
@@ -23,6 +24,7 @@ export class Initial extends PureComponent {
           <Subheader style={style.subheaderText}>Judge your friends fiercely 😉</Subheader>
         </View>
         <View style={style.bottomContainer}>
+          <Image source={intro1} style={style.image} />
           <Title style={style.questionText}>Could this person be a super villain?</Title>
         </View>
       </View>
