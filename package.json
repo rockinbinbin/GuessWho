@@ -10,7 +10,7 @@
 		"immutable": "^3.8.1",
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.47.1",
-		"react-native-navigation": "^1.1.180",
+		"react-native-navigation": "^1.1.228",
 		"react-redux": "^5.0.5",
 		"reactotron-redux": "^1.12.2",
 		"redux": "^3.7.2",
